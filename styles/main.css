@@ -63,6 +63,7 @@ body {
   border-radius: 5px;
   justify-self: center;
   padding: 0 10px;
+  box-shadow: 0px 4px 6px #b3b3b3;
 }
 
 .login-form-wrapper .the-form .input-wrapp .input-item::-webkit-input-placeholder {
@@ -126,7 +127,11 @@ body {
   top: 0px !important;
 }
 
-.allow:hover {
+.input-valid {
+  box-shadow: 0px 4px 6px #00BFA5 !important;
+}
+
+.allow {
   background: linear-gradient(90deg, #00BFA5 0%, #1DE0AF 100%) !important;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5) !important;
   color: #000 !important;
